@@ -33,14 +33,18 @@
 # n2 = int(input('digite o segundo valor'))
 # print('O primeiro número pe:', n1, "o segundo número é:", n2)  #exibe os valores digitados pelo usuário
 
-# n1 = float (input('digite a primeira nota:'))
-# n2 = float (input('digite a segunda nota:'))
+# n1 = float(input('Digite a primeira nota: '))
+# n2 = float(input('Digite a segunda nota: '))
 # media = (n1 + n2) / 2
-# print('A média do aluno(a)é:',media)
-# if media >=6:
+# print('A média do aluno(a) é:', media)
+
+# if media >= 6:
 #     print('Aprovado')
+# elif media >= 4:
+#     print('Recuperação')
 # else:
-#     print('Reprovado') 
+#     print('Reprovado')
+
 
 # print(5 + 3)    # Soma -> 8
 # print(10 - 2)   # Subtração -> 8
@@ -56,3 +60,26 @@
 # print(4 < 10)   # Menor que -> True
 # print(5 >= 5)   # Maior ou igual -> True
 # print(3 <= 2)   # Menor ou igual -> False
+
+# numero = int(input('Digite um número: '))
+
+# if numero % 2 == 0:
+#     print('O número é par.')
+# else:
+#     print('O número é ímpar.')
+
+# # Solicita os dois números
+# num1 = int(input('Digite o primeiro número: '))
+# num2 = int(input('Digite o segundo número: '))
+
+# # Calcula a soma
+# soma = num1 + num2
+
+# # Imprime o resultado da soma
+# print('A soma dos números é:', soma)
+
+# # Verifica se a soma é par ou ímpar
+# if soma % 2 == 0:
+#     print('A soma é par.')
+# else:
+#     print('A soma é ímpar.')
