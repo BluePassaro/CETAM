@@ -33,4 +33,26 @@
 # n2 = int(input('digite o segundo valor'))
 # print('O primeiro número pe:', n1, "o segundo número é:", n2)  #exibe os valores digitados pelo usuário
 
-5 == 87
+n1 = float (input('digite a primeira nota:'))
+n2 = float (input('digite a segunda nota:'))
+media = (n1 + n2) / 2
+print('A média do aluno(a)é:',media)
+if media >=6:
+    print('Aprovado')
+else:
+    print('Reprovado') 
+
+# print(5 + 3)    # Soma -> 8
+# print(10 - 2)   # Subtração -> 8
+# print(4 * 2)    # Multiplicação -> 8
+# print(16 / 2)   # Divisão normal -> 8.0
+# print(17 // 2)  # Divisão inteira -> 8
+# print(17 % 2)   # Resto da divisão -> 1
+# print(2 ** 3)   # Potência -> 8
+
+# print(5 == 5)   # Igual -> True
+# print(5 != 3)   # Diferente -> True
+# print(7 > 2)    # Maior que -> True
+# print(4 < 10)   # Menor que -> True
+# print(5 >= 5)   # Maior ou igual -> True
+# print(3 <= 2)   # Menor ou igual -> False
